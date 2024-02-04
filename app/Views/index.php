@@ -10,22 +10,22 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets\img\icon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?=base_url('assets/img/icon.png') ?>" rel="icon">
+  <link href="<?=base_url('assets/img/apple-touch-icon.png') ?>" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="<?=base_url('assets/vendor/aos/aos.css')?>" rel="stylesheet">
+  <link href="<?=base_url('assets/vendor/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
+  <link href="<?=base_url('assets/vendor/bootstrap-icons/bootstrap-icons.css')?>" rel="stylesheet">
+  <link href="<?=base_url('assets/vendor/boxicons/css/boxicons.min.css')?>" rel="stylesheet">
+  <link href="<?=base_url('assets/vendor/glightbox/css/glightbox.min.css')?>" rel="stylesheet">
+  <link href="<?=base_url('assets/vendor/swiper/swiper-bundle.min.css')?>" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="<?=base_url('assets/css/style.css')?>" rel="stylesheet">
 </head>
 
 <body>
@@ -80,7 +80,7 @@
         <div class="row">
           <div class="col-lg-4">
             <div class="about">
-                <img src="assets\img\my-image.jpg" class="img-fluid" alt="">
+                <img src="<?=base_url('assets/img/my-image.jpg') ?>" class="img-fluid" alt="">
                 <div class="overlay"></div>
             </div>
         </div>
@@ -120,17 +120,17 @@
             <div class="education-container">
               <div class="education-item">
                 <h4>Elementary</h4>
-                <img src="assets\img\schools\balbino.jpg" alt="Balbino Seron Elementary School">
+                <img src="<?=base_url('assets/img/schools/balbino.jpg') ?>" alt="Balbino Seron Elementary School">
                 <h4>Balbino Seron Elementary School</h4>
               </div>
               <div class="education-item">
                 <h4>Secondary</h4>
-                <img src="assets\img\schools\don.jpg" alt="Don Felix Serra National High School">
+                <img src="<?=base_url('assets/img/schools/don.jpg') ?>" alt="Don Felix Serra National High School">
                 <h4>Don Felix Serra National High School</h4>
               </div>
               <div class="education-item">
                 <h4>Tertiary</h4>
-                <img src="assets\img\schools\wvsu.png" alt="West Visayas State University - Main Campus">
+                <img src="<?=base_url('assets/img/schools/wvsu.png') ?>" alt="West Visayas State University - Main Campus">
                 <h4>West Visayas State University - Main Campus</h4>
                 <h6>Bachelor of Science in Computer Science - Artificial Intelligence</h6>
 
@@ -237,12 +237,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets\projects\img\exceipt.png" class="img-fluid" alt="">
+              <img src="<?=base_url('assets/projects/img/exceipt.png') ?>" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Exceipt App</h4>
                 <p>Web App</p>
                 <div class="portfolio-links">
-                  <a href="assets\projects\img\exceipt.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ExCeipt App"><i class="bx bx-plus"></i></a>
+                  <a href="<?=base_url('assets/projects/img/exceipt.png') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ExCeipt App"><i class="bx bx-plus"></i></a>
                   <a href="https://exceipt-exceipt.hf.space" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -251,12 +251,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets\projects\img\salpred.png" class="img-fluid" alt="">
+              <img src="<?=base_url('assets/projects/img/salpred.png') ?>" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Salary Predictor</h4>
                 <p>Web App</p>
                 <div class="portfolio-links">
-                  <a href="assets\projects\img\salpred.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Salary Prediction"><i class="bx bx-plus"></i></a>
+                  <a href="<?=base_url('assets/projects/img/salpred.png') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Salary Prediction"><i class="bx bx-plus"></i></a>
                   <a href="https://exceipt-sal-pred.hf.space" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -265,12 +265,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets\projects\img\txtgenclas.png" class="img-fluid" alt="">
+              <img src="<?=base_url('assets/projects/img/txtgenclas.png') ?>" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Text Generator and Classifier</h4>
                 <p>Web App</p>
                 <div class="portfolio-links">
-                  <a href="assets\projects\img\txtgenclas.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Text Generation and Classification"><i class="bx bx-plus"></i></a>
+                  <a href="<?=base_url('assets/projects/img/txtgenclas.png') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Text Generation and Classification"><i class="bx bx-plus"></i></a>
                   <a href="https://exceipt-text-gen-class.hf.space" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -285,12 +285,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets\projects\img\fifa.png" class="img-fluid" alt="">
+              <img src="<?=base_url('assets/projects/img/fifa.png') ?>" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Fifa Avatar Generator</h4>
                 <p>Web App</p>
                 <div class="portfolio-links">
-                  <a href="assets\projects\img\fifa.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Fifa Avatar Generator"><i class="bx bx-plus"></i></a>
+                  <a href="<?=base_url('assets/projects/img/fifa.png') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Fifa Avatar Generator"><i class="bx bx-plus"></i></a>
                   <a href="https://exceipt-fifa-avatar-gen.hf.space" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -499,18 +499,18 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="<?=base_url('assets/vendor/purecounter/purecounter_vanilla.js')?>"></script>
+  <script src="<?=base_url('assets/vendor/aos/aos.js')?>"></script>
+  <script src="<?=base_url('assets/vendor/bootstrap/js/bootstrap')?>.bundle.min.js"></script>
+  <script src="<?=base_url('assets/vendor/glightbox/js/glightbox')?>.min.js"></script>
+  <script src="<?=base_url('assets/vendor/isotope-layout/isotope')?>.pkgd.min.js"></script>
+  <script src="<?=base_url('assets/vendor/swiper/swiper-bundle')?>.min.js"></script>
+  <script src="<?=base_url('assets/vendor/typed.js/typed')?>.umd.js"></script>
+  <script src="<?=base_url('assets/vendor/waypoints/noframework.waypoints')?>.js"></script>
+  <script src="<?=base_url('assets/vendor/php-email-form')?>/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="<?=base_url('assets/js/main.js')?>"></script>
 
 </body>
 
